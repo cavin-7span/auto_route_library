@@ -19,7 +19,11 @@ dependencies:
   args: ^2.5.0
   glob: ^2.1.2
   package_config: ^2.1.0
-  auto_route: ^9.0.0
+  auto_route:
+    git:
+      url: https://github.com/cavin-7span/auto_route_library.git
+      path: auto_route/
+      ref: 4f75e2f
 
 
 dev_dependencies:
@@ -27,7 +31,3 @@ dev_dependencies:
   build_test: ^2.2.2
   source_gen_test:
   test:
-
-dependency_overrides:
-  auto_route:
-    path: ../auto_route
